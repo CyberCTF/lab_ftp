@@ -1,0 +1,68 @@
+# Fichiers d'environnement
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+*.log
+logs/
+/var/log/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Répertoires de construction
+node_modules/
+build/
+dist/
+
+# Fichiers de configuration sensibles
+**/config/secrets.yml
+**/config/database.yml
+**/config/production.yml
+
+# Fichiers de test temporaires
+test_upload.txt
+welcome.txt
+downloaded_*
+uploaded_*
+
+# Fichiers Docker
+.dockerignore
+docker-compose.override.yml
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers système
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Certificats et clés
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Backups
+*.backup
+*.bak
+*.orig
+
+# Fichiers de monitoring
+/monitoring/
+/metrics/ 
