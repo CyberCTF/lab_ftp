@@ -29,4 +29,4 @@ jobs:
           context: ./build
           file: ./build/Dockerfile
           push: true
-          tags: tonuser/ftp-anonymous-vuln-lab:latest 
+          tags: cyberctf/ftp-anonymous-vuln-lab:latest 
