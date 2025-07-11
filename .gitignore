@@ -17,7 +17,6 @@ Thumbs.db
 
 # Répertoires de construction
 node_modules/
-build/
 dist/
 
 # Fichiers de configuration sensibles
